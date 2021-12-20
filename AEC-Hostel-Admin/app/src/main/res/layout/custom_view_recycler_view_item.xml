@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:background="@drawable/card_bg"
+    android:elevation="4dp"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <CheckBox
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/text"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="@string/app_name" />
+
+    <LinearLayout
+        android:id="@+id/roll_sem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/roll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textColor="@color/text"
+            tools:text="@string/roll_number" />
+
+        <TextView
+            android:id="@+id/sem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textColor="@color/text"
+            tools:text="@string/semester" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/course_branch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textColor="@color/text"
+            tools:text="@string/course" />
+
+        <TextView
+            android:id="@+id/branch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textColor="@color/text"
+            tools:text="@string/branch" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/block_room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textColor="@color/text"
+            tools:text="@string/hostel_block_name" />
+
+        <TextView
+            android:id="@+id/room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textColor="@color/text"
+            tools:text="@string/hostel_room_number" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/block_room"
+        android:layout_toRightOf="@id/select"
+        android:text="Approve" />
+
+</LinearLayout>

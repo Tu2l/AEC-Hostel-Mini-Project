@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "219417250385",
+    "project_id": "aechostel-b775b",
+    "storage_bucket": "aechostel-b775b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219417250385:android:e37c4323eb44209fbbc670",
+        "android_client_info": {
+          "package_name": "com.aechostel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219417250385-ljuq13nc889km4tueb808n678l4ts6sh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRngy5azgt7EGquz7t_xNu1o0Xo0kSM8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219417250385-ljuq13nc889km4tueb808n678l4ts6sh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

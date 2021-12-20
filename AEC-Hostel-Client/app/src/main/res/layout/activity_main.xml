@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AttendanceActivity">
+
+    <LinearLayout
+        android:id="@+id/buttons_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/day"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:onClick="attendance"
+            android:text="Submit Day Attendance"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/night"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:onClick="attendance"
+            android:text="Submit Night Attendance"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/attendance_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="207dp"
+            android:layout_height="284dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="capture"
+            android:text="Capture" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:onClick="save"
+            android:text="Submit" />
+    </LinearLayout>
+
+
+</LinearLayout>

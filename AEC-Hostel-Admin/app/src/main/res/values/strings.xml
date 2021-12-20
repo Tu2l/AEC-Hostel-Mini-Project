@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">AEC Hostel Admin</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">LogIn</string>
+    <string name="new_register_here">New? Register here</string>
+    <string name="login_to_hostel_8">Admin Login to Hostel 8</string>
+    <string name="_2021_aec">© 2021 AEC</string>
+    <string name="register_to_hostel_8">Register to Hostel 8</string>
+    <string name="existing_user_login_here">Existing User? Login here</string>
+    <string name="app_title">Hostel 8 Attendance System</string>
+    <string name="app_version_text">App Version 1.0</string>
+    <string name="tag_line">Making it Simple.</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="used_in_hostel8_whatsapp">*Used in Hostel8 WhatsApp</string>
+    <string name="roll_number">Roll Number</string>
+    <string name="course">Course</string>
+    <string name="branch">Branch</string>
+    <string name="semester">Semester</string>
+    <string name="hostel_block_name">Hostel Block Name</string>
+    <string name="hostel_room_number">Hostel Room Number</string>
+    <string name="password_info">*Password must be greater than or equal to 6 characters</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="re_enter_your_password">Re-Enter your password</string>
+    <string name="register">Register</string>
+    <string name="image_instruction">Image must be clear with proper lighting for registering attendance.</string>
+    <string name="submit">Submit</string>
+    <string name="image_click_info">Tap on the black area/photo to click a photo of yourself</string>
+    <string name="duplicate_attendance_info">You have already submitted your attendance</string>
+    <string name="unapproved_info">You are not authorized to record attendance</string>
+    <string name="enter_your_registered_email">Enter your registered email</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="back">Back</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="update">Update</string>
+    <string name="enter_valid_mail">Enter a valid email</string>
+    <string name="password_reset_success">Successfully sent password reset instruction to your registered email address</string>
+    <string name="update_permission_denied">You don\'t have permission to edit your profile. Please contact your admin.</string>
+    <string name="update_permission_accepted">You can edit your profile</string>
+    <string name="log_out">Log Out</string>
+    <string name="user_info_not_found">User information not found in database please contact your admin</string>
+    <string name="location_permission_title">Location Permission required</string>
+    <string name="location_permission_desc">Location Permission is required o verify your exact location when registering your attendance. The app will not work without location permission.</string>
+    <string name="version_error">You are no using latest version of the application, please contact your admin for the latest version.</string>
+    <string name="succesfull_attendance">Successfully registered your attendance.</string>
+    <string name="view_approval_requests">Requests</string>
+    <string name="present_students">Present</string>
+    <string name="approved_students">Approved</string>
+    <string name="select_all">Select All</string>
+    <string name="reports">Reports</string>
+
+    <string-array name="course_array">
+        <item>All courses</item>
+        <item>BTech</item>
+        <item>MTech</item>
+        <item>MCA</item>
+    </string-array>
+
+    <string-array name="branch_array">
+        <item>All branches</item>
+        <item>Computer Application (MCA)</item>
+        <item>Civil Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Electronics &amp; Telecommunication Engineering</item>
+        <item>Computer Science &amp; Engineering</item>
+        <item>Chemical Engineering</item>
+        <item>Industrial &amp; Production Engineering</item>
+        <item>Instrumentation Engineering</item>
+    </string-array>
+
+    <string-array name="semester_array">
+        <item>All semesters</item>
+        <item>1st Semester</item>
+        <item>2nd Semester</item>
+        <item>3rd Semester</item>
+        <item>4th Semester</item>
+        <item>5th Semester</item>
+        <item>6th Semester</item>
+        <item>7th Semester</item>
+        <item>8th Semester</item>
+    </string-array>
+
+    <string-array name="block_name_array">
+        <item>All Blocks</item>
+        <item>New Building</item>
+        <item>Old Building</item>
+        <item>PG Block</item>
+    </string-array>
+
+
+    <string-array name="approval_array">
+        <item>All</item>
+        <item>Approved</item>
+        <item>Not Approved</item>
+    </string-array>
+</resources>

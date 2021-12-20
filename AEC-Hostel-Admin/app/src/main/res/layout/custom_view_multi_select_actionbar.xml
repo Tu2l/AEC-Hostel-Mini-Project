@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/card_bg"
+    android:elevation="4dp"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/close_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="5dp"
+        android:src="@drawable/ic_baseline_close_24" />
+
+    <TextView
+        android:id="@+id/selected_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:textColor="@color/text"
+        android:textSize="16sp"
+        tools:text="Selected 2/20" />
+
+    <Button
+        android:id="@+id/select_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:backgroundTint="@color/button"
+        android:text="@string/select_all" />
+
+</LinearLayout>
