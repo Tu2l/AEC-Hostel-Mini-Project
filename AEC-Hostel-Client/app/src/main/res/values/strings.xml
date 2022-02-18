@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AEC Hostel</string>
+    <string name="app_name">AEC Hostel 8</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="forgot_password">Forgot Password?</string>
@@ -14,7 +14,7 @@
     <string name="tag_line">Making it Simple.</string>
     <string name="name">Name</string>
     <string name="phone_number">Phone Number</string>
-    <string name="used_in_hostel8_whatsapp">*Used in Hostel8 WhatsApp</string>
+    <string name="used_in_hostel8_whatsapp">*Used in Hostel 8 WhatsApp</string>
     <string name="roll_number">Roll Number</string>
     <string name="course">Course</string>
     <string name="branch">Branch</string>
